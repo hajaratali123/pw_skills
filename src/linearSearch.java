@@ -13,13 +13,17 @@ public class linearSearch {
         }
         System.out.println("Enter the number or element to Search:");
         int num2= sc.nextInt();
+        boolean flag = false;
         for (int i = 0; i <num.length ; i++) {
             if(num[i]==num2)
             {
-                System.out.println("The position of "+num2+" is"+i);
-
+                flag=true;
+                break;
             }
-
         }
+        if(flag==true)
+            System.out.println("the element found :)");
+        else
+            System.out.println("The element does not found..!");
     }
 }
