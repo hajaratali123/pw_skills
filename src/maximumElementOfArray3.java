@@ -12,6 +12,7 @@ public class maximumElementOfArray3 {
         }
         int res=maxNum(arr);
         System.out.println("The maximum of array is "+res);
+
     }
     @org.jetbrains.annotations.Contract(pure = true)
     public static int maxNum(int[] arr){
@@ -24,4 +25,6 @@ public class maximumElementOfArray3 {
 
         return max;
     }
+
+
 }
