@@ -1,3 +1,5 @@
+package Arrays;
+
 public class intialiseArray2 {
     public static void main(String[] args) {
         int[] arr3= {10,30,320,59,354};

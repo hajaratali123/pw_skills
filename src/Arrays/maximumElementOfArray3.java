@@ -1,6 +1,8 @@
+package Arrays;
+
 import java.util.Scanner;
 
-public class maximumElementOfArray2 {
+public class maximumElementOfArray3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of Array:");
@@ -11,19 +13,20 @@ public class maximumElementOfArray2 {
             arr[i]=sc.nextInt();
         }
         int res=maxNum(arr);
-        System.out.println(res);
-    }
-    public static int maxNum(int[] arr){
+        System.out.println("The maximum of array is "+res);
 
-        Integer integer = null;
-        // bt taking the minimum value
-        int max= integer.MIN_VALUE;
+    }
+    @org.jetbrains.annotations.Contract(pure = true)
+    public static int maxNum(int[] arr){
+        int max=arr[0];
         for (int i = 0; i <arr.length ; i++) {
             if(arr[i]>max){
-                max=arr[i];
+                max=Math.max(max,arr[i]);
             }
         }
 
         return max;
     }
+
+
 }
