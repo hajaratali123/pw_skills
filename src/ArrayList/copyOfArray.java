@@ -33,7 +33,7 @@ public class copyOfArray {
         for (int num : err){
             System.out.print(num+" ");
         }
-
+        System.out.println("New values :");
         err[1]=400;
         System.out.println(err[1]);
     }
