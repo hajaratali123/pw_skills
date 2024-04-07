@@ -27,5 +27,14 @@ public class copyOfArray {
         for(int ele : arr2){
             System.out.print(ele+" ");
         }
+        System.out.println();
+        // Deep copy 2
+        int[] err = new int[arr.length];
+        for (int num : err){
+            System.out.print(num+" ");
+        }
+
+        err[1]=400;
+        System.out.println(err[1]);
     }
 }
