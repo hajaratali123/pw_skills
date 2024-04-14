@@ -19,28 +19,18 @@ public class DutchFlagAlgo {
         int high=n-1;
         while (mid<=high){
             if(arr[mid]==0){
-                swap(arr,mid,low);
-
-                low++;
-                high++;
+                swap(arr,mid,low);low++;high++;
             }
-            else if (arr[mid]==1) {
-                mid++;
+            else if (arr[mid]==1) {mid++;
             }
             else { //arr[mid]==2
                 swap(arr,mid,high);
-
-                high--;
-
-            }
+                high--;}
         }
         for (int i = 0; i <=n; i++) {
             System.out.print(arr[i]+" ");
-
         }
-
     }
-
     public static void swap(int[] arr, int mid, int low) {
         int temp = arr[mid];
         arr[mid]=arr[low];

@@ -11,6 +11,7 @@ public class basicSyntax {
         System.out.println(arr[0]+" ");
         System.out.println(arr[1]+" ");
         // update
+
         arr[0]=100;
         System.out.println(arr[0]);
 
