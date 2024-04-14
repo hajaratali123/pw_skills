@@ -52,6 +52,9 @@ public class mergeTwoSortedArray2 {
             }
         }
         System.out.println(Arrays.toString(c));
+        for (int ele : c){
+            System.out.print(c);
+        }
     }
 
 }
