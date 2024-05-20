@@ -16,7 +16,7 @@ public class maximumElementOfArray3 {
         System.out.println("The maximum of array is "+res);
 
     }
-    @org.jetbrains.annotations.Contract(pure = true)
+
     public static int maxNum(int[] arr){
         int max=arr[0];
         for (int i = 0; i <arr.length ; i++) {
