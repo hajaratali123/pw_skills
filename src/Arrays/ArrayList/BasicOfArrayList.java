@@ -1,7 +1,6 @@
-package ArrayList;
+package Arrays.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class BasicOfArrayList {
     public static void main(String[] args) {

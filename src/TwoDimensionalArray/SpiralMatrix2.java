@@ -5,7 +5,7 @@ import java.util.List;
 
 public class SpiralMatrix2 {
     public static void main(String[] args) {
-        // Create a 2D ArrayList to represent the matrix
+        // Create a 2D Arrays.oneDarrays.ArrayList to represent the matrix
         List<List<Integer>> matrix = new ArrayList<>();
 
         // Initialize the matrix with some values

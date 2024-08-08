@@ -1,8 +1,6 @@
-package ArrayList;
+package Arrays.ArrayList;
 
 import java.util.Scanner;
-
-import static java.util.Collections.swap;
 
 public class ReverseArrayUsingTwoPointer {
     public static void main(String[] args) {

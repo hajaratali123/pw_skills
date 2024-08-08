@@ -1,8 +1,8 @@
-package Arrays;
+package Arrays.oneDarrays;
 
 import java.util.Scanner;
 
-public class SumOfElements {
+public class productOfArrayElements {
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
 
@@ -11,14 +11,16 @@ public class SumOfElements {
         int[] arr4 = new int[x];
 
         System.out.println("The values of Array:");
-        for (int i = 0; i <arr4.length ; i++) {
+        for (int i = 0; i < x; i++) {
             arr4[i]=in.nextInt();
 
         }
-        int sum =0;
-        for (int i = 0; i < arr4.length; i++) {
-            sum = sum+arr4[i];
+        int pro =1;
+        for (int i = 0; i < x; i++) {
+            pro= pro*arr4[i];
+
         }
-        System.out.println("The sum of elements are :"+sum);
+        System.out.println("The product of elements are :"+pro);
+
     }
 }

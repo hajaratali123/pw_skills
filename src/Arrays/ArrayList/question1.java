@@ -1,6 +1,5 @@
-package ArrayList;
+package Arrays.ArrayList;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 //Given an array of integers nums and an integer target, return indices

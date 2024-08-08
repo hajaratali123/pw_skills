@@ -29,7 +29,6 @@ class PasclaTraingle {
                 ans.get(i).set(j, ans.get(i - 1).get(j) + ans.get(i - 1).get(j - 1));
             }
         }
-        return ans ;
 
         // Print Pascal's Triangle
         for (List<Integer> row : ans) {

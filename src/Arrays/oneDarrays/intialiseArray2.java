@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.oneDarrays;
 
 public class intialiseArray2 {
     public static void main(String[] args) {
