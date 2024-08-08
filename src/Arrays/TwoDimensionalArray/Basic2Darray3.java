@@ -1,4 +1,5 @@
-package TwoDimensionalArray;
+package Arrays.TwoDimensionalArray;
+
 
 public class Basic2Darray3 {
     public static void main(String[] args) {

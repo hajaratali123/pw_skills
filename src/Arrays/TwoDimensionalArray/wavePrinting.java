@@ -1,4 +1,5 @@
-package TwoDimensionalArray;
+package Arrays.TwoDimensionalArray;
+
 
 public class wavePrinting {
 

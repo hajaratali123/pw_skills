@@ -1,4 +1,5 @@
-package TwoDimensionalArray;
+package Arrays.TwoDimensionalArray;
+
 
 import java.util.ArrayList;
 import java.util.List;

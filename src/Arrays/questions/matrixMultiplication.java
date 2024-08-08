@@ -1,4 +1,4 @@
-package questions;
+package Arrays.questions;
 
 public class matrixMultiplication {
 
