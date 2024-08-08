@@ -10,7 +10,6 @@ public class SearchIn2DMatrix {
                 if (arr[i][j] == target) return true;
 
             }
-
         }
         return false;
     }
