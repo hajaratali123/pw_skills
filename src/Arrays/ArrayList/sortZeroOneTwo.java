@@ -24,7 +24,6 @@ public class sortZeroOneTwo {
             else if (i<noZeros+noOnce) arr[i]=1;
             else
                 arr[i]=2;
-
         }
         for (int ele :arr){
             System.out.print(ele+" ");
