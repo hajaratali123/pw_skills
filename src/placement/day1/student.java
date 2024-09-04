@@ -1,4 +1,4 @@
-package placement;
+package placement.day1;
 
 public class student {
     static String name;

@@ -1,4 +1,4 @@
-package placement;
+package placement.day1;
 
 public class pro1 {
     public static void main(String[] args) {

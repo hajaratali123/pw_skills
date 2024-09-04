@@ -1,4 +1,4 @@
-package placement;
+package placement.day1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
