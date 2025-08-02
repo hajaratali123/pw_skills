@@ -1,5 +1,11 @@
-package single_LL;
-
+package linked_list.doubley_LL;
+class Node{
+    int val;
+    Node next;
+    Node(int val){
+        this.val=val;
+    }
+}
 class Sll {
     Node head;
     Node tail;

@@ -19,7 +19,7 @@ public class DutchFlagAlgo {
         int high=n-1;
         while (mid<=high){
             if(arr[mid]==0){
-                swap(arr,mid,low);low++;high++;
+                swap(arr,mid,low);low++;mid++;
             }
             else if (arr[mid]==1) {mid++;
             }

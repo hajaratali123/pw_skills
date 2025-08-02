@@ -3,6 +3,16 @@ package Arrays.oneDarrays;
 import java.util.Scanner;
 
 public class maximumElementOfArray {
+    public static int maxNum(int[] arr){
+        int max=arr[0];
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+
+        return max;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of Array:");
@@ -15,14 +25,5 @@ public class maximumElementOfArray {
         int res=maxNum(arr);
         System.out.println(res);
     }
-    public static int maxNum(int[] arr){
-        int max=arr[0];
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i]>max){
-                max=arr[i];
-            }
-        }
 
-        return max;
-    }
 }

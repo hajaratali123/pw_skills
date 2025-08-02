@@ -1,16 +1,16 @@
 package single_LL;
 
-class cars {
-    int price;
-    String name;
-   public cars(int price, String name){
-        this.price=price;
-        this.name=name;
-    }
-
-
-
-}
+//class cars {
+//    int price;
+//    String name;
+//   public cars(int price, String name){
+//        this.price=price;
+//        this.name=name;
+//    }
+//
+//
+//
+//}
 class Node{
     int val;
     Node next;
@@ -20,13 +20,11 @@ class Node{
 }
 public class linked_list {
     static void print(Node head){
-        Node temp = head;
-        while (temp!=null){
-            System.out.println(temp.val);
-            temp=temp.next;
-
+       // Node temp = head;
+        while (head!=null){
+            System.out.println(head.val);
+            head=head.next;
         }
-
     }
 
     static void displayRecursive(Node head){

@@ -1,7 +1,6 @@
 package Basic_sorting_algo;
 
-public class selection_sort {
-
+public class Insertion_sort {
     public  static void print(int[] arr){
         for (int ele : arr){
             System.out.print(ele+" ");
@@ -19,17 +18,23 @@ public class selection_sort {
         int[] arr ={10,23,-1,2,5,-8};
         print(arr);
         int n = arr.length;
-        for (int i = 0; i <n-1 ; i++) {
-            int min=Integer.MAX_VALUE;
-            int minInd=-1;
-            for (int j = i; j < n; j++) {
-                if(arr[j]<min){
-                    min=arr[j];
-                    minInd=j;
-                }
+//        for (int i = 1; i <n ; i++) {
+//            for (int j = i; j >=1; j--) {
+//                if(arr[j]<arr[j-1])
+//                    swap(arr,j,j-1);
+//                else break;
+//
+//            }
+//        }
+
+        for (int i = 1; i <n ; i++) {
+            int j = i;
+            while (j>=1 && arr[j]< arr[j-1]){
+                swap(arr,j,j-1);
+                j--;
             }
-            swap(arr,i,minInd);
         }
         print(arr);
     }
 }
+

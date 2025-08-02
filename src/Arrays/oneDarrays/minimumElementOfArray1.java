@@ -19,7 +19,7 @@ public class minimumElementOfArray1 {
         Integer integer = null;
         int min = integer.MAX_VALUE;
         for (int i = 0; i <array5.length ; i++) {
-            if(min>array5[i+1]){
+            if(min>array5[i]){
                 min=array5[i];
             }
 
